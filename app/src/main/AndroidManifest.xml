@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roberasd.androidgcm" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+         <!-- Se agrego como nuevo -->
+        <receiver
+            android:name=".GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="com.roberasd.android.gcm"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService"/>
+
+
+
+        <uses-permissions android:name="android.permission.INTERNET"/> <!-- para tener acceso a internet -->
+        <uses-permissions android:name="android.permission.GET_ACCOUNTS"/> <!-- configuracion requerida por GCM para nuestra app-->
+        <uses-permissions android:name="android.permission.WAKE_LOCK"/>  <!-- para usar un tipo de broadcast-->
+        <uses-permissions android:name="com.google.android.c2m.permission.RECEIVE"/>  <!-- permite a nuestra app registrar y recibir mensajes de GCM-->
+
+        <!--  permisos para que solamente nuestra app reciba las notificaciones de GCM-->
+        <permission android:name="com.roberasd.androidgcm.permission.C2D_MESSAGE"
+            android:protectionLevel="signature"/>
+        <uses-permission android:name="com.roberasd.androidgcm.permission.C2D_MESSAGE"
+    </application>
+
+</manifest>
