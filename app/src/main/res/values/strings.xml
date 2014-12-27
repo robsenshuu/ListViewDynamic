@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+<<<<<<< HEAD
     <string name="app_name">ListViewDynamic</string>
+=======
+    <string name="app_name">AndroidGCM</string>
+>>>>>>> baf33ac82ecc5b477870cfaa6d94bad0b7653a60
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 

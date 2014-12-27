@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+<<<<<<< HEAD
     compileSdkVersion 21
     buildToolsVersion "21.1.1"
 
@@ -8,6 +9,15 @@ android {
         applicationId "com.roberasd.listviewdynamic"
         minSdkVersion 8
         targetSdkVersion 21
+=======
+    compileSdkVersion 'android-L'
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "com.roberasd.androidgcm"
+        minSdkVersion 8
+        targetSdkVersion 'L'
+>>>>>>> baf33ac82ecc5b477870cfaa6d94bad0b7653a60
         versionCode 1
         versionName "1.0"
     }
@@ -21,5 +31,9 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+<<<<<<< HEAD
     compile 'com.android.support:appcompat-v7:21.0.0'
+=======
+    compile 'com.android.support:appcompat-v7:21.+'
+>>>>>>> baf33ac82ecc5b477870cfaa6d94bad0b7653a60
 }
