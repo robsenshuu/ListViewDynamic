@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/ListViewDynamic.iml" filepath="$PROJECT_DIR$/ListViewDynamic.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/AndroidGCM.iml" filepath="$PROJECT_DIR$/AndroidGCM.iml" />
->>>>>>> baf33ac82ecc5b477870cfaa6d94bad0b7653a60
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
-

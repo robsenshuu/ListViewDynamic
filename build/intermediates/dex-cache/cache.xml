@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-cc3ca850af858b324471d55c48a7725b3eb15331.jar"
-        jar="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jar="/Applications/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b6df98d4794085161863af40b8f48b305692e751.jar" />
+    </item>
     <item
-        dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/classes-fbc9a879e5eef2e9d2a385869b578e1995c15885.jar"
-        jar="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jar="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/classes-cfebecf714f1a79195e66b918cda3bc72bd0cdc3.jar" />
+    </item>
     <item
-        dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-cbbfcf207266eb76e25b9337dc15359f6ba6651a.jar"
-        jar="/Applications/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jar="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/classes-258760f1491eb390b551a75adcd8ffaa74565f53.jar" />
+    </item>
     <item
-        dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/classes-c82c95f16ad516467250a4769bd72b5814f957c7.jar"
-        jar="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jar="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/Robert/AndroidStudioProjects/ListViewDynamic/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4300116e4263a29be9dde11f3dcdd033369cfb42.jar" />
+    </item>
 
-</pre-dex-items>
+</items>
